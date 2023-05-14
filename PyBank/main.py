@@ -53,8 +53,10 @@ with open(budget_path) as csvfile:
 # Print the analysis to the terminal (DONE STEP BY STEP) and export a text file with the results
 output_path = os.path.join("analysis", "analysis.txt")
 with open(output_path, 'w') as analysis_file:
-    analysis_file.writeline("Financial Analysis/n")                                                     
-    analysis_file.writeline("-----------------------")
-    analysis_file.writeline(f"Average Change: ${average_change}")                                      
-    analysis_file.writeline(f"Greatest Increase in Profits: {increase_month} (${increase})")
-    analysis_file.writeline(f"Greatest Decrease in Profits: {decrease_month} (${decrease})")
+    analysis_file.write("Financial Analysis\n")                                                     
+    analysis_file.write("-----------------------\n")
+    analysis_file.write(f"Number of Months: {months}\n")
+    analysis_file.write(f"Net Total: ${net_total}\n")
+    analysis_file.write(f"Average Change: ${average_change}\n")                                      
+    analysis_file.write(f"Greatest Increase in Profits: {increase_month} (${increase})\n")
+    analysis_file.write(f"Greatest Decrease in Profits: {decrease_month} (${decrease})\n")
