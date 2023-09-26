@@ -6,7 +6,6 @@ This repository contains Python scripts for two real-world financial and electio
 ## Table of Contents
 1. [PyBank](#pybank)
 2. [PyPoll](#pypoll)
-3. [About](#about)
 
 ## PyBank
 In the PyBank challenge, a Python script is used to analyze financial data. The script calculates:
@@ -16,11 +15,11 @@ In the PyBank challenge, a Python script is used to analyze financial data. The 
 - Greatest increase in profits (date and amount) over the entire period.
 - Greatest decrease in profits (date and amount) over the entire period.
 
-**Financial Analysis**
-Number of Months: 86
-Net Total: $22,564,198
-Average Change: $-8,311
-Greatest Increase in Profits: Aug-16 ($1,862,002)
+**Financial Analysis**<br>
+Number of Months: 86<br>
+Net Total: $22,564,198<br>
+Average Change: $-8,311<br>
+Greatest Increase in Profits: Aug-16 ($1,862,002)<br>
 Greatest Decrease in Profits: Feb-14 ($-1,825,558)
 
 ## PyPoll
@@ -31,11 +30,11 @@ In the PyPoll challenge, a Python script is used to modernize vote-counting in a
 - The total number of votes each candidate won.
 - The winner of the election based on popular vote.
 
-**Election Results**
-Total Votes: 369,711
-Charles Casper Stockham: 23.049% (85,213)
-Diana DeGette: 73.812% (272,892)
-Raymon Anthony Doane: 3.139% (11,606)
+**Election Results**<br>
+Total Votes: 369,711<br>
+Charles Casper Stockham: 23.049% (85,213)<br>
+Diana DeGette: 73.812% (272,892)<br>
+Raymon Anthony Doane: 3.139% (11,606)<br>
 Winner: Diana DeGette
 
 In addition to printing the analysis to the terminal, the scripts also export the results to text files.
