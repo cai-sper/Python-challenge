@@ -1,4 +1,41 @@
-# Python-challenge
-PyBank folder contains the main code for financial analysis, with a Resource folder containing source data CSV file and an Analysis folder containing the code-generated text document.<br><br> 
-PyPoll folder contains the main code for election analysis, with a Resource folder containing source data CSV file and an Analysis folder containing the code-generated text document. <br><br>
-Note: I received assistance from a tutor and used Stack Overflow articles for troubleshooting including https://stackoverflow.com/questions/13517080/sum-a-csv-column-in-python and https://stackoverflow.com/questions/41020797/proper-rounding-in-python-to-3-decimal-places.
+# Python Challenges: PyBank and PyPoll
+
+## Overview
+This repository contains Python scripts for two real-world financial and election analysis tasks, PyBank and PyPoll. In PyBank, the financial records of a company are analyzed, including total months, net profit/loss, average change, greatest profit increase, and greatest profit decrease. In PyPoll, poll data from a small town is analyzed, including the total number of votes, candidate statistics, and the election winner.
+
+## Table of Contents
+1. [PyBank](#pybank)
+2. [PyPoll](#pypoll)
+3. [About](#about)
+
+## PyBank
+In the PyBank challenge, a Python script is used to analyze financial data. The script calculates:
+- Total months included in the dataset.
+- Net total amount of "Profit/Losses" over the entire period.
+- Average change in "Profit/Losses" over the entire period.
+- Greatest increase in profits (date and amount) over the entire period.
+- Greatest decrease in profits (date and amount) over the entire period.
+
+**Financial Analysis**
+Number of Months: 86
+Net Total: $22,564,198
+Average Change: $-8,311
+Greatest Increase in Profits: Aug-16 ($1,862,002)
+Greatest Decrease in Profits: Feb-14 ($-1,825,558)
+
+## PyPoll
+In the PyPoll challenge, a Python script is used to modernize vote-counting in a small town. The script calculates:
+- Total number of votes cast.
+- A complete list of candidates who received votes.
+- The percentage of votes each candidate won.
+- The total number of votes each candidate won.
+- The winner of the election based on popular vote.
+
+**Election Results**
+Total Votes: 369,711
+Charles Casper Stockham: 23.049% (85,213)
+Diana DeGette: 73.812% (272,892)
+Raymon Anthony Doane: 3.139% (11,606)
+Winner: Diana DeGette
+
+In addition to printing the analysis to the terminal, the scripts also export the results to text files.
